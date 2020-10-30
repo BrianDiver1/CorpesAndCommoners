@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938678950176488443}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.26, y: -0.82, z: 0}
+  m_LocalPosition: {x: -0.657, y: -0.871, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -95,8 +95,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  rotateSpeed: 5
   health: 10
-  position: {x: 0, y: 0}
-  target: {x: 0, y: 0}
-  mousePosition: {x: 0, y: 0}
+  detectionRadius: {fileID: 0}
+  attack: {fileID: 0}
+  enemy: {fileID: 0}
+  aggroRange: 0
+  colliderName: 

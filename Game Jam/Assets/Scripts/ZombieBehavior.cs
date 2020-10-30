@@ -9,6 +9,9 @@ public class ZombieBehavior : MonoBehaviour
     Vector3 target;
     public CircleCollider2D detectionRadius;
     public Animation attack;
+    public GameObject enemy;
+    public float aggroRange;
+    public string colliderName;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,12 +31,13 @@ public class ZombieBehavior : MonoBehaviour
     }
     void Attack(GameObject victim)
     {
-        while(Vector2.Distance(this.transform.position,victim.transform.position) > 10)
+        while(Vector2.Distance(this.transform.position,victim.transform.position) < aggroRange)
         {
             target = victim.transform.position;
-            if (Vector2.Distance(this.transform.position, victim.transform.position) > 50)
-                return;
         }
+    }
+    void AttackAnimation()
+    {
         attack.Play();
     }
 }
