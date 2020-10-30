@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 32a6ead5baf7f634c96659db840b6b80
+guid: 70182d67fea7bd84d909b211cd6711e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7956414060362978203
-    second: Human4_0
+      213: 4612449372917577594
+    second: GJ Human1F_0
   - first:
-      213: 6895600937074130017
-    second: Human4_1
+      213: 6431059361958193061
+    second: GJ Human1F_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Human4_0
+      name: GJ Human1F_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56c24262193259190800000000000000
-      internalID: -7956414060362978203
+      spriteID: a77b9315446b20040800000000000000
+      internalID: 4612449372917577594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human4_1
+      name: GJ Human1F_1
       rect:
         serializedVersion: 2
         x: 0
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16c772f848812bf50800000000000000
-      internalID: 6895600937074130017
+      spriteID: 5a7e7fe9a66bf3950800000000000000
+      internalID: 6431059361958193061
       vertices: []
       indices: 
       edges: []
